@@ -1,0 +1,41 @@
+﻿body
+{
+    margin:10px auto;
+    background-color:gray;    
+}
+p {
+    font-size: 25px;
+}
+.form{
+    margin:10px 25%;
+    padding:10px 10px;
+    background-color:darkslategrey;
+
+}
+.form label{
+    margin:10px 25%;
+    font:15px;
+    color:white;
+    margin-right:15px;
+
+
+}
+input[type=text], input[type=email], input[type=password], select, textarea {
+    height: 30px;
+    margin: 10px 25% 10px 25%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    width: 50%;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 25%;
+    cursor: pointer;
+}
